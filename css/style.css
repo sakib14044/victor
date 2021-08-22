@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Caslon Text', serif;
+}
+header{
+
+width: 35%;
+
+margin: auto;
+
+text-align: center;
+
+padding: 15px 0;
+}
+header h1{
+
+font-size: 29px;
+font-weight: 300;
+margin-top: 10px;
+color: black;
+
+text-transform: capitalize;
+}
+header nav{
+
+margin-top: 30px;
+}
+header nav ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+}
+header nav ul li{
+
+}
+header nav ul li a{
+    
+text-decoration: none;
+    
+font-size: 16px;
+    
+font-weight: 300;
+    
+color: rgba(0,0,0,0.7);
+}
+header nav ul li a:hover{
+color: black;
+transition: 0.5s;
+}
+.banner-section{
+
+width: 90%;
+
+margin: auto;
+}
+.banner{
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+margin-top: 80px;
+}
+.banner-left{
+
+width: 43%;
+}
+.banner-left h1{
+
+font-size: 50px;
+
+color: #332f2f;
+
+margin: 10px;
+
+font-weight: 300;
+}
+.mark{
+
+font-size: 22px;
+
+margin-top: 25px;
+
+line-height: 32px;
+font-weight: 300;
+}
+.border{
+
+margin: 30;
+
+border-bottom: 1px solid black;
+
+width: 55px;
+
+margin: 27px 0;
+}
+.lead{
+
+color: #6b5c5c;
+
+line-height: 29px;
+
+font-size: 15px;
+
+font-weight: 300;
+}
+.button{
+
+padding: 10px 45px;
+
+background: black;
+
+color: white;
+
+margin-top: 35px;
+}
+.banner-right{
+
+width: 50%;
+}
+.banner-image{
+margin-bottom: 30px;
+}
+.banner-head{
+
+background: #FAFAFA;
+
+margin-top: -139px;
+
+padding: 150px 30px  70px 30px;
+}
+.banner-headcontent{
+
+width: 100%;
+
+text-align: center;
+
+padding: -217px 0;
+}
+.banner-headcontent h1{
+
+}
+.banner-headcontent p{
+
+}
+.border-middle{
+
+border-bottom: 1px solid black;
+
+width: 55px;
+
+margin: auto;
+
+margin-bottom: 30px;
+
+}
+.buy_book_h1{font-size: 40px;font-weight: 300;text-align: center;}
+
+.button-group1{
+
+}
+.all-button{
+ background: black;
+ color: white;
+ padding: 12px 36px;
+ border: 0;
+ margin: 8px 10px;
+ font-family: 'Libre Caslon Text',serif;
+ font-weight: 700;
+ text-transform: none;
+ letter-spacing: 2px;
+ font-size: 16px;
+ cursor: pointer;
+}
+.all-button:hover{
+color: #757575;
+transition: 0.5s;
+}
+.buy_book_p{
+ font-size: 15px;
+ color: #7A7A7A;
+ width: 42%;
+ margin: 0 auto;
+ line-height: 27px;
+ margin-bottom: 35px;
+ margin-top: 20px;
+ font-weight: 300;
+ text-align: center;
+}
+.button-group2{
+
+}
+.author-part{
+
+width: 100%;
+
+background: #F7F7F7;
+
+}
+.author{
+
+width: 90%;
+
+border-top: 1px solid #e0e0e0;
+
+display: flex;
+
+margin: auto;
+
+justify-content: space-between;
+
+padding-top: 100px;
+}
+ .left-author{
+
+width: 45%;
+
+margin-bottom: 10px;
+}
+ .author-image{
+
+ }
+ .right-author{
+
+width: 45%;
+}
+ .right-author h1{
+
+font-size: 36px;
+
+font-weight: 300;
+
+font-family: 'Libre Caslon Text',serif;
+
+margin-bottom: 30px;
+
+margin-top: 70px;
+}
+ .right-author h2{
+
+font-weight: 300;
+
+line-height: 40px;
+ font-family: 'Libre Caslon Text',serif;
+
+}
+ .author-button{
+    
+margin-top: 40px;
+    
+border: none;
+    
+color: black;
+    
+font-size: 15px;
+    
+font-weight: 600;
+    
+font-family: 'Libre Caslon Text',serif;
+    
+margin-bottom: 83px;
+}
+.author-button:hover{
+ color: #757575;
+}
+.star{
+
+}
+.star-content{
+
+width: 60%;
+
+margin: auto;
+
+padding: 80px 0;
+
+text-align: center;
+}
+.star-border{
+    width: 1px;
+    height: 200px;
+    margin: 0 auto;
+    background: black;
+    margin-top: -100px;
+}
+.star-content h1{
+
+font-size: 28px;
+font-family: 'Libre Caslon Text',serif;
+font-weight: 300;
+}
+.star-content h2{
+ font-size: 20px;
+ font-family: 'Libre Caslon Text',serif;
+ font-weight: 300;
+ margin: 27px 0;
+}
+.icon{
+
+display: flex;
+
+justify-content: center;
+}
+.fas{
+    
+color: #F0AD4E;
+    
+font-size: 14px;
+}
+.book-part{
+
+width: 90%;
+
+margin: auto;
+
+padding: 30px 0;
+
+margin-bottom: -15px;
+}
+.book-image{
+
+}
+.handle-order{
+    
+width: 92%;
+    
+margin: auto;
+    
+padding: 15px 0;
+    
+margin-bottom: 35px;
+}
+.all-order{
+
+display: flex;
+
+justify-content: space-around;
+
+text-align: center;
+
+margin: 40px 0;
+}
+.order{
+
+width: 20%;
+}
+.order h1{
+
+font-size: 23px;
+
+color: black;
+font-family: 'Libre Caslon Text',serif;
+ font-weight: 300;
+}
+.order p{
+
+margin: 15px 0;
+
+font-family: 'Libre Caslon Text',serif;
+
+font-weight: 300;
+
+color: #6b5c5c;
+}
+.span{
+    
+color: black;
+    
+font-weight: 600;
+    
+font-size: 15px;
+cursor: pointer;
+}
+.span:hover{
+color: #757575;
+transition: 0.5s;
+}
+.love-book{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+.love-book .buy_book_p{
+    width: 45%;
+}
+.book-group{
+
+display: flex;
+
+justify-content: space-between;
+}
+.book{
+    
+width: 30%;
+}
+.book .right-author-h1{
+font-family: 'Libre Caslon Text',serif;
+font-weight: 300;
+font-size: 27px;
+margin: 17px 0;
+}
+.book .right-author-h2{
+font-family: 'Libre Caslon Text',serif;
+ font-weight: 300;
+ font-size: 18px;
+}
+.subscribe-section{
+
+width: 100%;
+
+background: #1C1E24;
+
+color: white;
+
+padding: 90px 0;
+}
+.subscribe-content{
+
+width: 90%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.victor{
+
+width: 30%;
+}
+.victor-h2{
+
+font-size: 20px;
+
+margin-bottom: 20px;
+
+font-weight: 300;
+
+font-family: 'Libre Caslon Text',serif;
+}
+.subscribe-p{
+
+font-size: 15px;
+
+font-weight: 300;
+
+line-height: 27px;
+
+color: #728084;
+
+margin-bottom: 10px;
+
+margin-top: 28px;
+}
+.events{
+
+width: 30%;
+}
+.august{border-bottom: 1px solid white;}
+.mounth-h1{
+
+font-size: 19px;
+
+font-weight: 300;
+
+font-family: 'Libre Caslon Text',serif;
+
+text-transform: capitalize;
+
+/* padding: 23px 0; */
+
+margin-top: 46px;
+}
+.september{
+
+border-bottom: 1px solid white;
+}
+.october{
+
+}
+.subscribe{
+
+width: 30%;
+}
+.subscribe input{
+ width: 100%;
+ padding: 14px 10px;
+ margin: 15px 0;
+}
+.subscribe button{
+    padding: 18px 45px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.subscribe button:hover{
+    color: silver;
+    transition: 0.5s;
+}
+.footer{
+
+background: black;
+
+color: white;
+
+padding: 30px 0;
+}
+.footer-content{
+
+width: 90%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.footer-content h3{
+
+color: #7F7F77;
+
+font-size: 16px;
+}
+.footer-content h3:hover{
+    color: white;
+    transition: 0.5s;
+}
+.footer-content nav{
+
+width: 30%;
+}
+.footer-content nav ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+}
+.footer-content nav ul li {
+
+}
+.footer-content nav ul li a{
+    
+text-decoration: none;
+    
+color: #b7b7ae;
+    
+font-size: 15px;
+}
+.footer-content nav ul li a:hover{
+    color: white;
+    transition: 0.5s;
+}
